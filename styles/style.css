@@ -1,0 +1,174 @@
+*{
+    text-decoration: none;
+    
+}
+
+/*Nav styles */
+
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+
+}
+
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin:50px 226px;
+    margin-top:0px;
+}
+
+li{
+    display:inline;
+    margin-right:44px;
+}
+
+nav li a{
+    color:black;
+    text-decoration:none;
+    font-size:20px;
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.nav-title{
+    font-weight:800;
+    font-size:45px;
+}
+
+.text-primary{
+    color:#FD6E0A;
+}
+
+.dark2{
+    color:#474747;
+}
+.dark1{
+    color:#181818;
+}
+.dark3{
+    color:#757575;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    width:164px;
+    height:64px;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:20px;
+    font-weight:bold;
+    padding:18px 38px;
+}
+
+.secondary-background{
+    background-color:#FFF8F3;
+}
+
+/*banner styles */
+.banner{
+    display:flex;
+    justify-content: space-between;
+    margin:0 35px 0 200px;
+}
+.banner-greetings{
+    font-size:45px;
+    font-weight:600px;
+}
+.banner-title{
+    font-size:85px;
+}
+.banner-greetings,.banner-title,.banner-description{
+    text-decoration: none;
+    
+}
+
+.banner-description{
+    margin-bottom:30px;
+}
+.banner-profile-pic{
+    width:584px;
+    height:676px;
+}
+
+.about{
+    margin:130px 230px;
+    border-radius:10px;
+    padding:131px 156px;
+}
+.section-title{
+    text-align: center;
+    font-size: 35;
+    font-weight:bold;
+}
+
+.section-description{
+    font-size: 18px;
+}
+main{
+    max-width:1140px;
+    margin:0 auto;
+}
+
+.item-title{
+    font-size:20px;
+}
+.item-description{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.about-items{
+    display:flex;
+    gap:30px;
+}
+
+.text-center{
+    text-align:center;
+}
+.skills-container{
+    display:flex;
+    gap:24px;
+}
+.skill{
+    padding:30px;
+    border-radius: 5px;
+    box-shadow:0px 6px 50px 0px #FFFFFF;
+    
+}
+.resume-container{
+    display:flex;
+    gap:71px;
+    margin:113px  277px;
+}
+.resume-button{
+    margin:50px 700px;
+}
+footer{
+    padding:130px 230px;
+    display: flex;
+    gap:117px;
+}
+
+
+footer input[type="text"],footer input[type="email"]{
+    height:64px;
+    width:461px;
+    border-radius:5px;
+    margin-bottom:24px;
+    padding:30px 18px;
+}
+
+textarea{
+    display:block;
+}
